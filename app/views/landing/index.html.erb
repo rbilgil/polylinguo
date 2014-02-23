@@ -1,0 +1,48 @@
+<nav class="nav">
+  <div class="logo container">
+    <h1>Polylinguo</h1>
+  </div>
+</nav>
+
+<section class="top">
+  <h1>Learn another programming language, efficiently</h1>
+
+  <h2>Pro PHP programmer pondering Python?  Ruby on Rails dev ?</h2>
+
+  <div class="blurb">
+    <p>Polylinguo is the first web app specifically designed to teach existing programmers their 2nd, 3rd, 4th... programming language</p>
+  </div>
+
+    <div class="container">
+        <%= form_for Signup.new do |f| %>
+            <%= f.label 'Enter your e-mail to be notified when we launch' %>
+            <%= f.email_field :email, placeholder: 'e-mail address', required: true, class: 'email' %>
+            <%= f.submit 'Sign up', class: 'btn-signup' %>
+        <% end %>
+      <% flash.each do |name, message| %>
+          <div id="flash_<%= name %>" class="text-center">
+            <h3><%= message %></h3>
+          </div>
+      <% end %>
+    </div>
+</section>
+
+<section class="middle">
+
+  <h1>HOW IT WORKS</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="column third">
+            Hello
+        </div>
+        <div class="column third">
+            Hello
+        </div>
+        <div class="column third">
+            Hello
+        </div>
+      </div>
+    </div>
+
+</section>
