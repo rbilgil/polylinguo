@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
-# Use SQLite for dev/test
-gem 'sqlite3'
-
 # Use Postgres for production db
 gem 'pg'
 
@@ -42,6 +39,8 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'guard-rspec'
+  # Use SQLite for dev/test
+  gem 'sqlite3'
 end
 
 #require 'rbconfig'
