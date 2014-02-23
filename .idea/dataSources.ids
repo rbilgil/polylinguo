@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails polylinguo: development" uuid="3f7c532a-ec1f-4416-8298-ced62cc0b4bc">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails polylinguo: test" uuid="73c29cdc-27f2-4b28-bd14-5b2467819f17">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails polylinguo: production" uuid="62bdd9b7-17ba-4f5b-ab91-c91f25d1389c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

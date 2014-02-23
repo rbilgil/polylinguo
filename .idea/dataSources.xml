@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1030371180">
+    <data-source source="LOCAL" name="Rails polylinguo: development" uuid="3f7c532a-ec1f-4416-8298-ced62cc0b4bc">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Code\polylinguo\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails polylinguo: test" uuid="73c29cdc-27f2-4b28-bd14-5b2467819f17">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Code\polylinguo\db\test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails polylinguo: production" uuid="62bdd9b7-17ba-4f5b-ab91-c91f25d1389c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:polylinguo_signups</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
