@@ -1,0 +1,194 @@
+// Place all the styles related to the Landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$fonts: 'Lato', sans-serif;
+$lgreen: #3d9c89;
+$dgreen: #27594f;
+$grey: #454445;
+$yellowish: #f5f3dc;
+$redish: #e24d23;
+
+
+body {
+  font: 100% $fonts;
+  font-weight: 500;
+  background-color: white;
+  color: $grey;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3rem;
+  line-height: 1.3em;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 40rem) {
+  h1 { font-size: 1.5rem; }
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 30rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 10px;
+}
+
+.nav {
+  width: 100%;
+  background-color: $lgreen;
+  color: white;
+  padding: 10px;
+}
+
+.nav h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html {
+    font-size: 120%;
+  }
+}
+
+/* Small screens (default) */
+html {
+  font-size: 100%;
+}
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html {
+    font-size: 112%;
+  }
+
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 24.95%; }
+  .column.flow-opposite { float: right; }
+}
+
+
+section.top {
+  width: 100%;
+  padding: 40px 0;
+  background-color: $dgreen;
+  color: $yellowish;
+  text-align: center;
+}
+
+section.top h1 {
+  font-weight: 700;
+  margin: 0.2rem;
+  font-size: 2.0rem;
+}
+
+section.top h2 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: white;
+}
+
+section.top .blurb {
+  margin: 100px auto 30px auto;
+  color: white;
+}
+
+section.top form {
+  overflow: hidden;
+  margin: auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+section.top input {
+  background: $yellowish;
+  padding: 10px;
+  border: none;
+  float: left;
+}
+
+section.top label {
+  font-size: 0.8rem;
+}
+
+section.top .email {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 75%;
+  color: $grey;
+}
+
+section.top .btn-signup {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: $redish;
+  font-weight: 700;
+  width: 25%;
+  -webkit-box-shadow: inset 0px -4px 0px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow:    inset 0px -4px 0px 0px rgba(50, 50, 50, 0.2);
+  box-shadow:         inset 0px -4px 0px 0px rgba(50, 50, 50, 0.2);
+}
+
+section.top .btn-signup:hover {
+  background-color: darken($redish, 5%);
+}
+
+/* Middle Section */
+
+section.middle {
+  padding: 20px 0;
+  text-align: center;
+}
+
+section.middle h1 {
+  color: $redish;
+  font-size: 2rem;
+  font-weight: 900;
+}
