@@ -5,7 +5,7 @@
 $fonts: 'Lato', sans-serif;
 $lgreen: #3d9c89;
 $dgreen: #27594f;
-$grey: #454445;
+$grey: #686868;
 $yellowish: #f5f3dc;
 $redish: #e24d23;
 
@@ -142,7 +142,7 @@ section.top .blurb {
 
 section.top form {
   overflow: hidden;
-  margin: auto;
+  margin: 0 auto 30px;
   max-width: 500px;
   text-align: left;
 }
@@ -165,15 +165,21 @@ section.top .email {
   color: $grey;
 }
 
-section.top .btn-signup {
+.btn-signup {
+  display: block;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: $redish;
+  color: $yellowish;
   font-weight: 700;
   width: 25%;
+  padding: 10px;
   -webkit-box-shadow: inset 0px -4px 0px 0px rgba(50, 50, 50, 0.2);
   -moz-box-shadow:    inset 0px -4px 0px 0px rgba(50, 50, 50, 0.2);
   box-shadow:         inset 0px -4px 0px 0px rgba(50, 50, 50, 0.2);
+}
+
+section.top .btn-signup {
+  background: $redish;
 }
 
 section.top .btn-signup:hover {
@@ -191,4 +197,50 @@ section.middle h1 {
   color: $redish;
   font-size: 2rem;
   font-weight: 900;
+}
+
+section.middle .rounded-box {
+  border-radius: 10px;
+  border: 2px solid #eee;
+  padding: 10px;
+  width: 230px;
+  margin: 20px auto;
+}
+
+section.middle .column.third p {
+  display: table-cell;
+  width: 295px;
+  height: 80px;
+  vertical-align: bottom;
+}
+
+section.middle .column.full {
+  margin: 30px auto;
+}
+
+section.middle .column.full a {
+  text-decoration: none;
+}
+
+section.middle .column.full .btn-signup {
+  background: $lgreen;
+  color: white;
+  font-size: 150%;
+  margin: 20px auto 0 auto;
+  width: 180px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+section.middle .column.full .btn-signup:hover {
+  background: darken($lgreen, 5%);
+}
+
+section.middle .column.full span {
+  font-size: 70%;
+  color: $lgreen;
+}
+
+.rounded-box.dark {
+  background: #272822;
 }
